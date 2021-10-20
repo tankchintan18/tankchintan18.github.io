@@ -26,6 +26,27 @@ body {
   background-size: 100% 100%;
 }
 
+.shubh-vivah {
+	background: url("../img/shubhvivah.png");
+	background-size: cover;
+  width: 7em;
+  height: 3.94em;
+}
+
+@media (min-width: 768px) {
+	.shubh-vivah {
+		width: 11.5em;
+		height: 6.5em;
+	}
+}
+
+@media (min-width: 992px) {
+	.shubh-vivah {
+	width: 18em;
+    height: 10em;
+	}
+}
+
 .skintone-text {
 	color: var(--skintone-color);
 }
