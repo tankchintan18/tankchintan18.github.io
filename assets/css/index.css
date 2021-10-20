@@ -338,6 +338,17 @@ h1 {
     margin-right: 0.2em;
 }
 
+.couple-pic.chandresh {
+	background-image: url("../img/couple/chandresh-mug-1.jpg");
+	background-size: cover;
+}
+
+.couple-pic.darshika {
+	background-image: url("../img/couple/darshika-mug-1.jpg");
+	background-size: cover;
+}
+
+
 .gradient-border {
   --border-width: 3px;
   position: relative;
