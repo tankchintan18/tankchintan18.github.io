@@ -296,8 +296,6 @@ var warp = document.getElementById("invite-container"),
   h = window.innerHeight;
   // h = document.getElementsByTagName("body")[0].getBoundingClientRect().height;
 
-console.log(w, window.outerWidth)
-
 for (i = 0; i < total; i++) {
   var Div = document.createElement("div");
   const props = {
@@ -306,11 +304,6 @@ for (i = 0; i < total; i++) {
     y: R(-200, -150),
     z: R(-200, 200)
   };
-
-  if (props.x > 900) {
-
-  console.log(props, w)
-  } 
 
   TweenLite.set(Div, props);
   warp.appendChild(Div);
