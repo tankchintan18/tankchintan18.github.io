@@ -13,8 +13,9 @@ body {
 	overflow-x:hidden;
 }
 
-#invite-container {
-	  width:100%; height:100%;
+.couple-intro {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
 }
 
 .dot {
@@ -45,11 +46,15 @@ body {
 	font-weight: bolder;
     font-size: 2em;
 }	
+
+.couple-name.darshika {
+	text-align: right;
 }
 
-/*header {
-	margin-top: 2em;
-}*/
+.couple-name.chandresh {
+	text-align: left;
+}
+
 
 .header {
 	text-shadow: 1px 1px 2px #edc7b0;
