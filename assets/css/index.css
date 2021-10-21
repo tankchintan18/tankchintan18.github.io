@@ -137,7 +137,7 @@ h1 {
 }
 
 .general {
-    font-size: 2.5vh;
+    font-size: max(2.5vh, 2.5vw);
     margin-bottom: 0.5em;
     line-height: 1.25em;
 }
